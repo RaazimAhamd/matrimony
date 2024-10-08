@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "sparrow",
+        "image": "assets/images/bird1.jpg",
+        "age": "25 Yrs",
+        "height": "7ft 2in",
+        "location": "Chennai, Tamilnadu, India",
+        "religion": "Test",
+        "caste": "my caste",
+        "language": "Tamil",
+        "occupation": "MBBS"
+    },
+    {
+        "id": 2,
+        "name": "parrot",
+        "image": "assets/images/bird2.jpg",
+        "age": "27 Yrs",
+        "height": "4ft 2in",
+        "location": "Coimbatore, Tamilnadu, India",
+        "religion": "New",
+        "caste": "No catse",
+        "language": "Telugu",
+        "occupation": "Software Engineer"
+    },
+    {
+        "id": 3,
+        "name": "crow",
+        "image": "assets/images/bird3.jpg",
+        "age": "55 Yrs",
+        "height": "8ft 2in",
+        "location": "Kollam, Kerala, India",
+        "religion": "Aesthic",
+        "caste": "Our Caste",
+        "language": "English",
+        "occupation": "Doctor"
+    },
+    {
+        "id": 4,
+        "name": "king fisher",
+        "image": "assets/images/bird4.jpg",
+        "age": "30 Yrs",
+        "height": "5ft 2in",
+        "location": "Renikonda, Andhra, India",
+        "religion": "My religion",
+        "caste": "Nair",
+        "language": "Tamil",
+        "occupation": "Engineer"
+    },
+    {
+        "id": 5,
+        "name": "cuckoo",
+        "image": "assets/images/bird5.jpg",
+        "age": "30 Yrs",
+        "height": "5ft 2in",
+        "location": "Wayanad, Kerala, India",
+        "religion": "All religion",
+        "caste": "No catse",
+        "language": "Marathi",
+        "occupation": "Technocian"
+    },
+    {
+        "id": 6,
+        "name": "peacock",
+        "image": "assets/images/bird6.jpg",
+        "age": "30 Yrs",
+        "height": "5ft 2in",
+        "location": "Trichy, Tamilnadu, India",
+        "religion": "Hindu",
+        "caste": "Nair",
+        "language": "English",
+        "occupation": "Manager"
+    },
+    {
+        "id": 7,
+        "name": "dove",
+        "image": "assets/images/bird7.jpg",
+        "age": "30 Yrs",
+        "height": "5ft 2in",
+        "location": "Agra, Delhi, India",
+        "religion": "Hindu",
+        "caste": "Nair",
+        "language": "Hindi",
+        "occupation": "Employee"
+    }
+]

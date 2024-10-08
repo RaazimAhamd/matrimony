@@ -1,0 +1,21 @@
+<mat-card class="profile-card card">
+    <mat-card-content>
+        <div class="profile-details">
+            <ng-container (click)="yes(); isSelected =true"><img [src]="profile.image" alt="{{ profile.name }}" height="100%" width="100%" /></ng-container>
+            <div class="card-content">
+                <span class="name"> {{profile.name}} </span><br>
+                <span> {{ profile.age }}, </span>
+                <span> {{ profile.height }}, </span>
+                <span> {{ profile.language }}, </span>
+                <span> {{ profile.religion }}, </span>
+                <span> {{ profile.caste }}, </span>
+                <span> {{ profile.occupation }}, </span>
+                <span> {{ profile.location }} </span>
+                <mat-card-actions class="buttons">
+                    <button mat-button (click)="yes(); isSelected =true" [ngClass]="{'selected': isSelected}">Yes</button>
+                    <button mat-button color="warn" (click)="no(); isSelected =false" [ngClass]="{'selected': !isSelected}">No</button>
+                </mat-card-actions>
+            </div>
+        </div>
+    </mat-card-content>
+</mat-card>

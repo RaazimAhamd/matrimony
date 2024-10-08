@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="nav-container">
+        MATRIMONY
+    </div>
+
+    <div class="body-contain">
+        <div class="profile-container">
+            <app-profile-card *ngFor="let profile of profiles" [profile]="profile"
+            (touchstart)="onTouchStart($event)"
+            (touchmove)="onTouchMove($event)"
+            (touchend)="onTouchEnd(profile)"></app-profile-card>
+        </div>
+    </div>
+</div>
